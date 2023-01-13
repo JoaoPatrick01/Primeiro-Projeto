@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&family=Roboto:wght@100&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+
+
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    height: 95px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    flex: 20%;
+    margin-left: 10%;
+    /*border: 1px solid darkblue;*/
+    text-align: center;
+}
+
+.logo h1 {
+
+    font-family: 'Mukta', sans-serif;
+    color: white;
+    font-size: 27px;
+
+}
+
+.gradiente {
+    background-image: linear-gradient(to top, rgb(255, 89, 0), rgb(58, 30, 4));
+}
+
+.menu {
+    flex: 60%;
+    /*border: 1px solid darkblue;*/
+    border-radius: 5px;
+    text-align: right;
+    padding: 20px;
+    margin-right: 10%;
+}
+
+.menu a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 25px;
+    border-radius: 10px;
+
+}
+
+.menu a:hover {
+    color: #9c2200;
+    /*border-top: 4px solid #1d0030;*/
+    background-color: #ff3d00;
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background: black;
+
+}
+
+.headline {
+    margin-left: 10%;
+    flex: 40%;
+    text-align: center;
+    /*border: 1px solid red;*/
+}
+
+.headline h2 {
+    font-weight: 900;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.img-headline {
+    margin-right: 10%;
+    flex: 40%;
+    /*border: 1px solid deeppink;*/
+}
+
+.lorem {
+    text-align: center;
+}
+
+section {
+    display: inline-block;
+    margin-top: 80px;
+    border: 7px solid orangered;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    padding: auto;
+    text-align: center;
+}
+
+section h2 {
+    width: 100%;
+    font-size: 40px;
+    margin: 0;
+    font-family: 'Mukta', sans-serif;
+    color: #9c2200;
+}
+
+.comeco {
+    display: inline-block;
+    margin: 5%;
+}
+
+.card {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 2px solid #ff3d00;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.card:hover {
+    background: #ff3d00;
+    color: aqua;
+    padding: auto;
+}
+
+.card:hover img {
+    display: none;
+}
+
+.card:hover .card-text {
+    display: none;
+}
+
+.card:hover .texto-oculto {
+    display: block;
+}
+
+.texto-oculto {
+    display: none;
+}
